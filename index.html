@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel to the Farlands</title>
+</head>
+<body>
+        <section class="showcase ">
+                <header>
+                    <h1 class="logo">Travel</h1>
+                    <h2><div class="toggle">Menu</div></h2>
+                </header>
+                <img src="bg_img.jpg" >
+
+                <div class="overlay"></div>
+                <div class="text">
+                    <h1> Always in search for the Farlands</h1>
+                    <h2>The first stop to the Oasis</h2>
+                    <p>Yes, both Bedrock and Java will have usually have the same biomes. However, due to the games being updated at different times you may see a temporary discrepancy. Other in-game locations such as villages and temples are different between versions.</p>
+                    <h1><u>Types of Biomes</u></h1>
+
+                <ul>
+                    <li>Plains</li>
+                    <li>Forest</li>
+                    <li>Jungle</li>
+                    <li>nether</li>
+                    <li>Mountains</li>
+                    <li>Desert</li>
+                    <li>Taiga</li>
+                    <li>Snowy Tundra</li>
+                    <li>Ice Spikes</li>
+                    <li>Swamp</li>
+                    <li>Savannah</li>
+                </ul>
+                </div>
+                
+                </ul>
+            </section>
+            <div class="menu">
+                <ul>
+                    <li><a href='#'>World Seed's</a></li>
+                    <li><a href='#'>Biome Information</a></li>
+                    <li><a href='#'>Village Spawns</a></li>
+                    <li><a href='#'>Pillager Mansions</a></li>
+                    <li><a href='#'>Outposts to Visit</a></li>
+                    <li><a href='#'></a></li>
+                    <li><a href='#'></a></li>
+            </div>
+            
+            <script>
+                const menuToggle = document.querySelector('.toggle')
+                const showcase = document.querySelector('.showcase')
+
+                menuToggle.addEventListener('click', () =>{
+                    menuToggle.classList.toggle('active')
+                    showcase.classList.toggle('active')
+                })
+            </script>
+</body>
+</html>
